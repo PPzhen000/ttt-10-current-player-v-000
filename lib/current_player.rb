@@ -15,5 +15,5 @@ def current_player(board)
   # else
   #   return "O"
   # end
-  return counter.even? "X" : "O"
+  return counter % 2 == 0? "X" : "O"
 end
